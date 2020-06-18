@@ -7,9 +7,6 @@ def oxford_comma(array)
   when 2
   array.join(" and ")
 else 
-  array.join(', '), arr.last].join(', and ')
-# string = array.join(", ") #converts to string with and
-# string[-1] = "and"
-# string
+    [array[0..-2].join(', '), arr.last].join(', and ')
  end
 end
